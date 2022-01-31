@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sounds>
+	<General>
+		<!-- Winmag single shot -->
+		<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Winmag Single" volume="2.0" group="1" comment="">
+			<Wave>audio/sfx/weapons/weapon_winmag_single_1.ogg</Wave>
+		</Sound>
+	</General>
+</Sounds>
