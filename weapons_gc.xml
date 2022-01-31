@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Weapons>
+		<!-- Dolt 46 -->
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.winmag" bulletType="normal" emptySound="Empty Click 1">
+		<props range="50" hands="2" recoil="0" weight="5" isHeavy="0" clipSize="8" reloadAPCost="15" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.5" />
+		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="50" suppressionRadius="1">
+			<Set1 ap="15" accuracy="100" />
+			<Set2 ap="30" accuracy="200" />
+			<Set3 ap="30" accuracy="300" />
+		</SingleShot>
+		<GUIImage name="gui/weapons/winmag.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.winmag" type="kinetic" damage="256" mitigation="0">
+				<Projectile spectre="projectiles/bullet/bullet" speed="4500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplume/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+</Weapons>
